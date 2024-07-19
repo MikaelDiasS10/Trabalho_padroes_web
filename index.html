@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+
     <title>Atividade Padrões WEB</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header .cabecalho>
-    <img  src="https://ead.ifrn.edu.br/portal/wp-content/uploads/2019/03/IFES.jpg" alt="" width="56" height="80" >
-    <h1 id="lblBemvindo">Bem vindo!</h1>
-</header>
-<nav .menu>
+    <div class="imagem">
+    <img  src="https://ead.ifrn.edu.br/portal/wp-content/uploads/2019/03/logo.3fd3099d4d22472cb384-300x300.png" alt="" width="56" height="80" >
+    <h1 id="lblBemvindo">Bem vindo à Nossa Página Web</h1>
+    </div>
+   
+ 
+<nav class="menu">
     <ul>
         <li><a href="#lblBemvindo">Início</a></li>
         <li><a href="#txt_sobre">Sobre</a></li>
@@ -19,13 +22,14 @@
         <li><a href="#lblContato">Contato</a></li>
     </ul>
 </nav>
+
 <main>
-    <div .primeira_div>
-        <h2 id="txt_sobre">Sobre</h2>
+    <div class="sobre">
+        <h2>Sobre</h2>
         <p>Somos uma empresa brasileira inovadora e em constante crecimento na area de desenvolvimento de sistemas WEB, utilizamos as melhores ferramentas do mercado e contamos com profissonais altamente capacitados para promever sempre as melhores soluções aos nossos clentes.</p>
     </div>
-    <div .segunda_div>
-        <h2 id="txt_habilidades">Nossos serviços</h2>
+    <div class="habilidades">
+        <h2>Nossos serviços</h2>
         <ul>
             <li>Sites</li>
             <li>Portais</li>
@@ -35,19 +39,19 @@
     </div>
 
 </main>
-    <div .contato>
+    <div class="contato">
         <form action="#">
             <h2 id="lblContato">Contato</h2>
             <label for="fname">Nome:</label><br>
-            <input type="text" id="fname" name="fname"><br>
+            <input type="text" id="fname" name="fname" placeholder="Digite aqui"> <br>
             <label for="femail">E-mail:</label><br>
-            <input type="email" id="lname" name="lname"><br>
+            <input type="email" id="lname" name="lname"placeholder="Digite aqui"><br>
             <label for="fmemo">Mensagem</label><br>
-            <textarea name="fmensagem" id=""></textarea><br>
-            <input type="submit" value="Enviar">
+            <textarea name="fmensagem" id=""placeholder="Digite aqui"></textarea><br>
+            <button>Enviar</button>
         </form>
     </div>
-<footer .rodape>
+<footer class="rodape">
     <p>© Copyright 2024 - IFRN TSI 2024.1 - Mikael e Claudemyr</p>
 </footer>
     

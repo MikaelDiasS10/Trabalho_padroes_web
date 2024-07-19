@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(228, 224, 220);
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.imagem {
+        display: flex;
+        align-items: center; /* Alinha os itens verticalmente ao centro */
+        background-color: black;
+        margin-bottom: 20px;
+        margin: 10px;
+    }
+.imagem img {
+        margin-right: 26%; 
+        background-color:black;
+        width: 100px;
+        height: 90px;
+    }
+.imagem h1 {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: white;
+        padding: 10px;
+    }
+.menu {
+    display: flex;
+    justify-content: center; 
+    background-color: #333;
+    margin-bottom: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none; 
+    color: white;
+    padding: 14px 20px;
+    
+}
+.menu a:hover {
+    background-color: #575757;
+
+}
+.sobre {
+    background-color:white;
+    margin-bottom: 20px;
+    margin: 10px;
+    
+}
+
+.sobre h2{
+    color: black;
+    margin: 15px;
+    padding: 10px; 
+}
+
+.sobre p {
+    margin: 15px;
+    padding: 10px;
+}
+
+.habilidades {
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+.habilidades h2{
+    margin-bottom: 20px;
+    margin: 10px;
+}
+
+.contato {
+    background-color: white;
+    margin-bottom: 20px;
+    margin: 10px;
+}
+
+.contato h2 {
+    margin: 15px;
+    padding: 10px;
+}
+
+.contato label {
+    margin: 15px;
+    padding: 10px;
+}
+.contato input {
+    margin: 23px;
+    padding: 5px;
+    width: 96%;
+    border-radius: 5px;
+    border: 1px solid #ccc
+}
+.contato textarea {
+    margin: 23px;
+    padding: 5px;
+    width: 96%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc
+}
+.contato button {
+    margin: 23px;
+    padding: 5px;
+    width: 97%;
+    margin-bottom: 20px;
+    
+}
+
+.rodape {
+    background-color: black;
+}
+
+.rodape p{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
