@@ -7,23 +7,23 @@ body{
     height: 100vh;
 }
 .imagem {
-        display: flex;
-        align-items: center; /* Alinha os itens verticalmente ao centro */
-        background-color: black;
-        margin-bottom: 20px;
-        margin: 10px;
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    background-color: black;
+    margin-bottom: 20px;
+    margin: 10px;
     }
 .imagem img {
-        margin-right: 26%; 
-        background-color:black;
-        width: 100px;
-        height: 90px;
+    margin-right: 26%; 
+    background-color:black;
+    width: 100px;
+    height: 90px;
     }
 .imagem h1 {
-        text-align: center;
-        font-family: Arial, sans-serif;
-        color: white;
-        padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 10px;
     }
 .menu {
     display: flex;
